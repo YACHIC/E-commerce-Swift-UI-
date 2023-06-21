@@ -26,6 +26,7 @@
 		AAE10E352A42A7A700AA8D8A /* CartProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E342A42A7A700AA8D8A /* CartProductView.swift */; };
 		AAE10E372A42A9C400AA8D8A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E362A42A9C400AA8D8A /* CartView.swift */; };
 		AAE10E392A42DB9D00AA8D8A /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E382A42DB9D00AA8D8A /* PaymentButton.swift */; };
+		AAE10E3B2A42E18E00AA8D8A /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E3A2A42E18E00AA8D8A /* ProductDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		AAE10E342A42A7A700AA8D8A /* CartProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductView.swift; sourceTree = "<group>"; };
 		AAE10E362A42A9C400AA8D8A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		AAE10E382A42DB9D00AA8D8A /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		AAE10E3A2A42E18E00AA8D8A /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				AAE10DF52A413DCE00AA8D8A /* ContentView.swift */,
 				AAE10E322A429AE500AA8D8A /* HomePageView.swift */,
 				AAE10E362A42A9C400AA8D8A /* CartView.swift */,
+				AAE10E3A2A42E18E00AA8D8A /* ProductDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				AAE10DF62A413DCE00AA8D8A /* ContentView.swift in Sources */,
 				AAE10E242A41527600AA8D8A /* Product.swift in Sources */,
 				AAE10E272A415A0500AA8D8A /* ImageSliderView.swift in Sources */,
+				AAE10E3B2A42E18E00AA8D8A /* ProductDetails.swift in Sources */,
 				AAE10E2B2A41981C00AA8D8A /* SearchView.swift in Sources */,
 				AAE10E002A413DD200AA8D8A /* E_commerce.xcdatamodeld in Sources */,
 				AAE10DF42A413DCE00AA8D8A /* E_commerceApp.swift in Sources */,
