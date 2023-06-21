@@ -47,6 +47,7 @@ struct HomePageView: View {
                 }
             }
         }
+        .environmentObject(cartManager)
     }
 }
 
@@ -74,7 +75,10 @@ struct AppBar: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: Text("")){
+                    NavigationLink(destination: CartView()
+                        .environmentObject(cartManager)
+                    
+                    ){
                         CartButton(numberOfProducts: cartManager.products.count)
                     }
                     
