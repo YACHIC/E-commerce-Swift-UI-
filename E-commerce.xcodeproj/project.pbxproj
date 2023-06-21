@@ -25,6 +25,7 @@
 		AAE10E332A429AE500AA8D8A /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E322A429AE500AA8D8A /* HomePageView.swift */; };
 		AAE10E352A42A7A700AA8D8A /* CartProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E342A42A7A700AA8D8A /* CartProductView.swift */; };
 		AAE10E372A42A9C400AA8D8A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E362A42A9C400AA8D8A /* CartView.swift */; };
+		AAE10E392A42DB9D00AA8D8A /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E382A42DB9D00AA8D8A /* PaymentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		AAE10E322A429AE500AA8D8A /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		AAE10E342A42A7A700AA8D8A /* CartProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductView.swift; sourceTree = "<group>"; };
 		AAE10E362A42A9C400AA8D8A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		AAE10E382A42DB9D00AA8D8A /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				AAE10E2A2A41981C00AA8D8A /* SearchView.swift */,
 				AAE10E2F2A42988E00AA8D8A /* CartButton.swift */,
 				AAE10E342A42A7A700AA8D8A /* CartProductView.swift */,
+				AAE10E382A42DB9D00AA8D8A /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				AAE10E2B2A41981C00AA8D8A /* SearchView.swift in Sources */,
 				AAE10E002A413DD200AA8D8A /* E_commerce.xcdatamodeld in Sources */,
 				AAE10DF42A413DCE00AA8D8A /* E_commerceApp.swift in Sources */,
+				AAE10E392A42DB9D00AA8D8A /* PaymentButton.swift in Sources */,
 				AAE10E292A41980E00AA8D8A /* ProductCardView.swift in Sources */,
 				AAE10E332A429AE500AA8D8A /* HomePageView.swift in Sources */,
 				AAE10E302A42988E00AA8D8A /* CartButton.swift in Sources */,
