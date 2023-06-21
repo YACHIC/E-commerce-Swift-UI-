@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProductDetails: View {
+struct ProductDetailsView: View {
     var product: Product
     var body: some View {
         ScrollView{
@@ -45,18 +45,33 @@ struct ProductDetails: View {
                         }
                         .padding(.vertical)
                         
-                        HStack(spacing: 10){
-                            ForEach(0..<5){index in
-                                Image(systemName: "star.fill")
-                                    .resizable()
-                                    .frame(width: 20, height: 20)
-                                    .foregroundColor(.yellow)
+                        HStack {
+                            HStack(spacing: 10){
+                                ForEach(0..<5){index in
+                                    Image(systemName: "star.fill")
+                                        .resizable()
+                                        .frame(width: 20, height: 20)
+                                        .foregroundColor(.yellow)
+                                }
+                                
+                                Text("4.5")
+                                    .foregroundColor(.gray)
                             }
+                            .padding(.vertical)
                             
-                            Text("4.5")
-                                .foregroundColor(.gray)
+                            Spacer()
+                            
+                            HStack{
+                                Button(action: {}, label: {
+                                    Image(systemName: "minus.square")
+                                })
+                                Text("1")
+                                Button(action: {}, label: {
+                                    Image(systemName: "plus.square.fill")
+                                        .foregroundColor(Color("KPrimary"))
+                                })
+                            }
                         }
-                        .padding(.vertical)
                         
                         Text("Description")
                             .font(.title3)
@@ -84,19 +99,20 @@ struct ProductDetails: View {
                             
                             Spacer()
                             
-                            VStack(alignment: .leading){
+                            VStack(alignment: .trailing){
                                 Text("Colors")
                                     .font(.system(size: 18))
                                     .fontWeight(.semibold)
                                 
-                                Text("Blue")
-                                    .foregroundColor(.blue)
-                                Text("Black")
-                                    .foregroundColor(.black)
-                                Text("Off-white")
-                                    .foregroundColor(.gray)
+                                HStack{
+                                    ColorDotView(color: .blue)
+                                    ColorDotView(color: .black)
+                                    ColorDotView(color: .green)
+                                }
+                                
+                              
                             }
-                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(maxWidth: .infinity, alignment: .trailing)
 
                         }
                         .padding(.vertical)
@@ -118,6 +134,17 @@ struct ProductDetails: View {
 
 struct ProductDetails_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetails(product: productList[0])
+        ProductDetailsView(product: productList[0])
     }
+}
+
+struct ColorDotView: View {
+    let color: Color
+    var body: some View{
+        
+        color
+            .frame(width: 25, height: 25)
+            .clipShape(Circle())
+    }
+    
 }
