@@ -21,6 +21,7 @@
 		AAE10E292A41980E00AA8D8A /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E282A41980E00AA8D8A /* ProductCardView.swift */; };
 		AAE10E2B2A41981C00AA8D8A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E2A2A41981C00AA8D8A /* SearchView.swift */; };
 		AAE10E2D2A419AB500AA8D8A /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E2C2A419AB500AA8D8A /* CartManager.swift */; };
+		AAE10E302A42988E00AA8D8A /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE10E2F2A42988E00AA8D8A /* CartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		AAE10E282A41980E00AA8D8A /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		AAE10E2A2A41981C00AA8D8A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AAE10E2C2A419AB500AA8D8A /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		AAE10E2F2A42988E00AA8D8A /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,10 @@
 		AAE10DF22A413DCE00AA8D8A /* E-commerce */ = {
 			isa = PBXGroup;
 			children = (
+				AAE10E312A429A2000AA8D8A /* View */,
 				AAE10E252A4159AD00AA8D8A /* Components */,
 				AAE10E222A41525800AA8D8A /* Models */,
 				AAE10DF32A413DCE00AA8D8A /* E_commerceApp.swift */,
-				AAE10DF52A413DCE00AA8D8A /* ContentView.swift */,
 				AAE10DF72A413DD200AA8D8A /* Assets.xcassets */,
 				AAE10DFC2A413DD200AA8D8A /* Persistence.swift */,
 				AAE10DFE2A413DD200AA8D8A /* E_commerce.xcdatamodeld */,
@@ -160,8 +162,17 @@
 				AAE10E262A415A0500AA8D8A /* ImageSliderView.swift */,
 				AAE10E282A41980E00AA8D8A /* ProductCardView.swift */,
 				AAE10E2A2A41981C00AA8D8A /* SearchView.swift */,
+				AAE10E2F2A42988E00AA8D8A /* CartButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		AAE10E312A429A2000AA8D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAE10DF52A413DCE00AA8D8A /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				AAE10E002A413DD200AA8D8A /* E_commerce.xcdatamodeld in Sources */,
 				AAE10DF42A413DCE00AA8D8A /* E_commerceApp.swift in Sources */,
 				AAE10E292A41980E00AA8D8A /* ProductCardView.swift in Sources */,
+				AAE10E302A42988E00AA8D8A /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
